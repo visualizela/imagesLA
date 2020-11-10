@@ -25,8 +25,8 @@ twitter_username:
 github_username:  
 
 # --MAP SETTINGS--
-map-tileset: 'https://api.mapbox.com/styles/v1/kirschbombe/cje1t61823u2p2rrwv3u68kf3/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2lyc2NoYm9tYmUiLCJhIjoiMTQxVVBocyJ9.vWLKsRKrVWU-WG2QlMb6kA'
-map-credits: '<a target="_blank" href="https://github.com/kirschbombe/flaneur">Flâneur</a> | Tiles: Mapbox'
+map-tileset: 'https://api.mapbox.com/styles/v1/styles/andy-rutkowski/cjsp2c14p04zj1fmetikh16km/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYW5keS1ydXRrb3dza2kiLCJhIjoiWDJRMFVUWSJ9.iHl6Cf0M79wmHQlfP6Bk8Q'
+map-credits: '<a target="_blank" href="https://visualizela.github.io/imagesLA/">Images of LA</a> | Tiles: Mapbox'
 minZoom: 0
 maxZoom: 20
 setView: '[34.023690, -118.284930], 8'  # set map center point and zoom. See http://leafletjs.com/reference-1.2.0.html for more info.
