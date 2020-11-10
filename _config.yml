@@ -1,0 +1,60 @@
+
+
+# --SITE SETTINGS--
+title: "Images of Los Angeles"
+email: arutkows@usc.edu or stacyw@usc.edu
+description:
+baseurl: "/imagesLA" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+github_repo: https://visualizela.github.io/imagesLA
+
+# --COPYRIGHT-- (Date generated from last build)
+copyright_name: Andy Rutkowski, Stacy Williams
+license: CC BY-NC-SA 4.0
+
+# build settings
+markdown: kramdown
+encoding: utf-8
+
+# --STYLES--
+accent_color: rgba(18, 127, 157, 1)  # accent color can be any css accepted value
+accent_font: Della Respira  # Gogle Fonts import link is in head.html. You can specify the accent font here and it will add it to the main.css
+
+# --SOCIAL--
+twitter_username: 
+github_username:  
+
+# --MAP SETTINGS--
+map-tileset: 'https://api.mapbox.com/styles/v1/kirschbombe/cje1t61823u2p2rrwv3u68kf3/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2lyc2NoYm9tYmUiLCJhIjoiMTQxVVBocyJ9.vWLKsRKrVWU-WG2QlMb6kA'
+map-credits: '<a target="_blank" href="https://github.com/kirschbombe/flaneur">Flâneur</a> | Tiles: Mapbox'
+minZoom: 0
+maxZoom: 20
+setView: '[34.023690, -118.284930], 8'  # set map center point and zoom. See http://leafletjs.com/reference-1.2.0.html for more info.
+marker-grouping: grouped # sets the default clustering action. Options: grouped, single
+
+# Truncates map marker popup on small screens to only display post title
+window-height: 600
+window-width: 550
+
+# --LINKS--
+collections:
+  posts:
+    output: true
+    permalink: /article/:name
+  article-index:
+    title: Article Index
+    output: true
+    permalink: /article-index/:name/
+
+permalink: /:categories/:title/
+
+# --MENU--
+menu-type: dropdown  # options: dropdown, circle
+
+# settings for circle menu
+menu-height: '200px'
+menu-width: '200px'
+menu-opacity: '.95'
+
+#pages to exclude in menu
+exclude_pages: [ "index.html", 'home.md']
