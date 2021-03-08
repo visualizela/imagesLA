@@ -1,0 +1,30 @@
+---
+layout: default
+---
+  {% include head.html %}
+
+  <!-- creates a list of mapmarker icons -->
+  {% assign icons = "" | split: ',' %}
+  {% for image in site.static_files %}
+      {% if image.path contains 'assets/leaflet/img' %}
+          {% assign icons = icons | push: image.path %}
+      {% endif %}
+   {% endfor %}
+
+  <!-- gets all the collections that are not posts -->
+  {% assign collections = site.collections | map: "docs"| push: site.pages %}
+  <div id="app">
+    <mapview :mapdata='{{site.mapsettings | jsonify}}'
+    sitetitle='{{site.title}}' menutype="{{site.menu-type}}"
+    :searchfields="[{'field': 'title', 'boost': 10},
+    {'field': 'desc', 'boost': 10}, {'field': 'url', 'boost': 10},
+    {'field': 'categories', 'boost': 10}, {'field': 'author', 'boost': 1},
+    {'field': 'date', 'boost': 1}, {'field': 'headertitle', 'boost': 10},
+    {'field': 'menutitle', 'boost': 1}, {'field': 'output', 'boost': 10}, {'field': 'slug', 'boost': 1}, {'field': 'content', 'boost': 10}]"
+    headerimage='{{site.headerimage}}'
+    :icons='{{icons | jsonify}}'
+    baseurl="{{site.baseurl}}"
+    :postdata='{{collections | jsonify | escape}}'
+    ></mapview>
+  </div>
+  <script src="index.js"></script>
