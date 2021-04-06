@@ -2,7 +2,7 @@
 layout: post
 title: “your title”
 date: 2021-04-06
-categories: [“Spring 2021]
+categories: [“Spring 2021]"
 author: “Lauren Abbattista”
 lat: 34.1987171
 lng: -118.0760205
