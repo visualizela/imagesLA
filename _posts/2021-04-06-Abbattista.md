@@ -4,11 +4,12 @@ title: “your title”
 date: 2021-04-06
 categories: [“Spring 2021]"
 author: “Lauren Abbattista”
-lat: 34.1987171
-lng: -118.0760205
+lat: 34.2065441
+lng: -118.1032993
 runningtitle: "Running title here"
 desc: “Something something something?”
 ---
+
 This is your longer text. This is your longer text. This is your longer text. 
 This is your longer text. This is your longer text. This is your longer text. 
 This is your longer text. This is your longer text. This is your longer text. 
