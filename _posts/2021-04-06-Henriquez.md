@@ -2,7 +2,7 @@
 layout: post
 title: “your title”
 date: 2021-04-06
-categories: [“Spring 2021]
+categories: [“Spring 2021"]
 author: "Giselle Henriquez"
 lat: 34.360722   
 lng: -118.109869
