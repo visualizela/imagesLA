@@ -1,0 +1,66 @@
+---
+layout: page
+---
+
+{% if page.status %}
+    {% assign status = page.status %}
+{% else %}
+    {% assign status = 'a-z' %}
+{% endif %}
+
+{% for status in site.article-index %}
+  {% if status.status %}
+    <a href="{{site.baseurl}}/#{{ status.url }}" class="index-button">{{ status.status }}</a>
+  {% endif %}
+{% endfor %}
+
+<!-- sort a-z -->
+   {% if status == 'a-z' %}
+    {% assign azsort = site.posts | sort: 'title' %}
+     <h3>A-Z</h3>
+     <ul>
+       {% for post in azsort %}
+         <li><a href="{{site.baseurl}}/#{{post.url}}">{{post.title}}</a></li>
+       {% endfor %}
+      </ul>
+  {% elsif status == 'category' %}
+    {% assign categories = site.categories | sort %}
+     {% for category in categories %}
+       {% capture category_name %}{{ category | first }}{% endcapture %}
+       <h3>{{ category_name | capitalize }}</h3>
+       <ul>
+         {% for post in site.categories[category_name] %}
+          <li><a href="{{site.baseurl}}/#{{post.url}}">{{post.title}}</a></li>
+         {% endfor %}
+       </ul>
+     {% endfor %}
+<!-- sort date -->
+   {% elsif status == 'date' %}
+     {% assign years = '' | split: "" %}
+     {% assign groupedposts = site.posts | group_by_exp: "item", "item.date | date: '%Y %b'" | sort: "name" | reverse %}
+
+    {% for postgroup in groupedposts %}
+
+    <h3><b>{{postgroup.name}}</b></h3>
+    <ul>
+    {% assign groupedbyyear = postgroup.items | sort: "date" | reverse | group_by: "date" %}
+    {% for groupedyear in groupedbyyear %}
+      {% assign sortedposts = groupedyear.items | sort_natural: "title" %}
+      {% for post in sortedposts %}
+      <li><a href="#{{post.url}}">{{post.title }}</a></li>
+    {% endfor %}
+  {% endfor %}
+  </ul>
+{% endfor %}
+{% else %}
+    {% assign sorted = site.posts | sort: status | group_by: status %}
+    {% for item in sorted %}
+       <h3>{{ item.name | capitalize }}</h3>
+       <ul>
+         {% for post in item.items %}
+          <li><a href="{{site.baseurl}}/#{{post.url}}">{{post.title}}</a></li>
+         {% endfor %}
+       </ul>
+     {% endfor %}
+   {% endif %}
+</div>

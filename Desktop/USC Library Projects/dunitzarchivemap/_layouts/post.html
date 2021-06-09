@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="post">
+	<p class="byline">{% if page.author %}{{ page.author }}, {{ page.date | date_to_string }}{% endif %}</p>
+    <div id="content">
+      {{ page.content }}
+    </div>
+    <div>
+      <h4>Cite this article</h4>
+      <p class="citation">{% include citation.html %}</p>
+    </div>
+</div>
