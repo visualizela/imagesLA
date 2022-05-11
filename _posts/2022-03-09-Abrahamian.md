@@ -33,3 +33,9 @@ Bar chart data visualization.
 
 {:.bibliography}
 1. [LAHSA 2020 Homeless Count](https://www.lahsa.org/documents?id=4697-2020-homeless-count-data-by-census-tract)
+2. [Group Quarter Populations 2000 Census via Social Explorer](https://www.socialexplorer.com/data/C2000/metadata/?ds=SE&var=T038_002)
+3. [Group Quarter Populations 2010 Census via Social Explorer](https://www.socialexplorer.com/data/C2010/metadata/?ds=SE&var=T066_002)
+4. [UCLA Institute of Transportation, Cars as Housing](https://www.its.ucla.edu/project/cars-as-housing-vehicular-homelessness-in-los-angeles-county/)
+5. [LAHSA 2020 Homeless Count report](https://www.lahsa.org/news?article=726-2020-greater-los-angeles-homeless-count-results)
+6. [What are Group Quarters via Caliper](https://www.caliper.com/learning-redistricting/index.php/articles/what-are-group-quarters/)
+
