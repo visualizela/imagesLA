@@ -67,7 +67,7 @@ Bar chart and maps.
 Bar chart and maps.
    {:.caption}
    
-      ![Full Zine sample 3](images/Abrahamian_Sources.png)
+![Full Zine sample 3](images/Abrahamian_Sources.png)
    {:.image}
 Sources page.
    {:.caption}
