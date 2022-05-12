@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Where and What Do the Los Angeles Homeless Call Home?"
-date: 
+date: 2022-03-09
 categories: ["Housing"]
 author: "Arno Abrahamian"
 lat: 34.0256492
