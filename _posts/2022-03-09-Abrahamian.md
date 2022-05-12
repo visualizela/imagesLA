@@ -27,6 +27,52 @@ Los Angeles County map with data visualization foldouts.
 Bar chart data visualization.
    {:.caption}
    
+   ![Full Zine sample 3](images/Abrahamian_ZinePage1.png)
+   {:.image}
+Cover page.
+   {:.caption}
+   
+   ![Full Zine sample 3](images/Abrahamian_ZinePage2.png)
+   {:.image}
+Map and Introduction.
+   {:.caption}
+   
+   ![Full Zine sample 3](images/Abrahamian_ZinePage3.png)
+   {:.image}
+Hierarchy data visualization fold outs.
+   {:.caption}
+   
+   ![Full Zine sample 3](images/Abrahamian_ZinePage4.png)
+   {:.image}
+Hierarchy data visualization fold outs.
+   {:.caption}
+   
+   ![Full Zine sample 3](images/Abrahamian_Page3and4OPEN.png)
+   {:.image}
+Hierarchy data visualization fold outs.
+   {:.caption}
+   
+   ![Full Zine sample 3](images/Abrahamian_Page5.png)
+   {:.image}
+Bar chart and maps.
+   {:.caption}
+   
+   ![Full Zine sample 3](images/Abrahamian_Page5fold1.png)
+   {:.image}
+Bar chart and maps.
+   {:.caption}
+   
+   ![Full Zine sample 3](images/Abrahamian_Page5fold2.png)
+   {:.image}
+Bar chart and maps.
+   {:.caption}
+   
+      ![Full Zine sample 3](images/Abrahamian_Sources.png)
+   {:.image}
+Sources page.
+   {:.caption}
+   
+   
 
 #### Works cited
 
