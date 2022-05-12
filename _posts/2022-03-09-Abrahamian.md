@@ -17,17 +17,16 @@ While many people believe that homeless people live in tents in busy cities, dat
 Cover page.
    {:.caption}
    
-   ![Full Zine sample 2](images/Abrahamian_sample2.jpg)
+![Full Zine sample 2](images/Abrahamian_sample2.jpg)
    {:.image}
 Los Angeles County map with data visualization foldouts.
    {:.caption}
    
-   ![Full Zine sample 3](images/Abrahamian_sample3.jpg)
+![Full Zine sample 3](images/Abrahamian_sample3.jpg)
    {:.image}
 Bar chart data visualization.
    {:.caption}
    
-
 
 #### Works cited
 
