@@ -2,7 +2,7 @@
 layout: post
 title: "Beach Water Quality"
 date: 2020-11-10
-categories: ["Parks and Open Space"]
+categories: ["Environment"]
 author: "Elsa VanDenBerghe"
 lat: 34.0057596
 lng: -118.5042175
