@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LA Animal Shelters"
-date: 2022-10-25
+date: 2023-12-01
 categories: ["Culture"]
 author: "Annie Petrosyan"
 lat: 34.09124356093809 
